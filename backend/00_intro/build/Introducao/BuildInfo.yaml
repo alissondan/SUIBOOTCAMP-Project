@@ -3,19 +3,19 @@ compiled_package_info:
   package_name: Introducao
   address_alias_instantiation:
     bridge: 000000000000000000000000000000000000000000000000000000000000000b
-    introducao: 00000000000000000000000000000000000000000000005a6f6e612054726573
+    introducao: "0000000000000000000000000000000000000000000000000000000000000000"
     std: "0000000000000000000000000000000000000000000000000000000000000001"
     sui: "0000000000000000000000000000000000000000000000000000000000000002"
     sui_system: "0000000000000000000000000000000000000000000000000000000000000003"
-  source_digest: 307D95267C4025B0A08291E812462951F47BBBE8DA071855ADBA01600FD2900F
+  source_digest: E00746E6D85C81DC49E3B4BE5383945AC2ECC49819C111E780AEEC96CB464ECB
   build_flags:
-    dev_mode: true
-    test_mode: true
+    dev_mode: false
+    test_mode: false
     generate_docs: false
     save_disassembly: false
     install_dir: ~
     force_recompilation: false
-    lock_file: ~
+    lock_file: ".\\Move.lock"
     fetch_deps_only: false
     skip_fetch_latest_git_deps: false
     default_flavor: sui
